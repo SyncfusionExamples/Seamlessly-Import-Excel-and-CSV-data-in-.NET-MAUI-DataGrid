@@ -167,7 +167,10 @@ private async void OnImportClicked(object sender, EventArgs e)
 
 ***
 
+![Import Excel Data in DataGrid](ImportExcelData.gif)
+
 ## **Conclusion**
 
-You’ve learned how to import Excel data into **SfDataGrid** in .NET MAUI using Syncfusion XlsIO. This approach is perfect for dashboards, reports, and analytics apps.
-
+ Thanks for reading! In this blog, we’ve seen how to showcase bulk editing in [.NET MAUI DataGrid](https://www.syncfusion.com/maui-controls/maui-datagrid). Check out our Release Notes[https://www.syncfusion.com/products/release-history] and [What’s New pages](https://www.syncfusion.com/products/whatsnew) to see the other updates in this release and leave your feedback in the comments section below. 
+ For current Syncfusion customers, the newest version of Essential Studio is available from the [license and downloads page](https://www.syncfusion.com/Account/Login?ReturnUrl=%2faccount%2fdownloads). If you are not yet a customer, you can try our 30-day free [trial](https://www.syncfusion.com/downloads) to check out these new features. 
+ For questions, you can contact us through our support [forums](https://www.syncfusion.com/forums), [feedback portal](https://www.syncfusion.com/feedback), or support [portal](https://support.syncfusion.com/). We are always happy to assist you!
