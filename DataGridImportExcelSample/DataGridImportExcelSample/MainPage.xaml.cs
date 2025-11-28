@@ -20,12 +20,17 @@ namespace DataGridImportExcelSample
             {
                 PickerTitle = "Select a data file",
                 FileTypes = new FilePickerFileType(new Dictionary<DevicePlatform, IEnumerable<string>>
-            {
-                { DevicePlatform.iOS, new[] { "com.microsoft.excel.xlsx", "public.comma-separated-values-text" } },
-                { DevicePlatform.MacCatalyst, new[] { "org.openxmlformats.spreadsheetml.sheet", "public.comma-separated-values-text" } },
-                { DevicePlatform.Android, new[] { "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "text/csv" } },
-                { DevicePlatform.WinUI, new[] { ".xlsx", ".csv" } }
-            })
+    {
+        // iOS/macOS use UTType identifiers
+        { DevicePlatform.iOS, new[] { "org.openxmlformats.spreadsheetml.sheet", "public.comma-separated-values-text" } },
+        { DevicePlatform.MacCatalyst, new[] { "org.openxmlformats.spreadsheetml.sheet", "public.comma-separated-values-text" } },
+
+        // Android uses MIME types
+        { DevicePlatform.Android, new[] { "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "text/csv" } },
+
+        // Windows uses file extensions
+        { DevicePlatform.WinUI, new[] { ".xlsx", ".csv" } }
+    })
             });
 
             if (result is null)
