@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DataGridImportingExcelSample/DataGridImportingExcelSample.csproj">
+    <Deploy />
+  </Project>
+</Solution>

@@ -7,7 +7,7 @@ This demo shows how to showcase Importing Excel Data into SfDataGrid in .NET MAU
 
 Excel files are everywhere—sales reports, inventory lists, customer records. But static spreadsheets don’t belong in modern apps. Imagine transforming those rows and columns into a sleek, interactive grid that works seamlessly across mobile and desktop. With **.NET MAUI** and **Syncfusion SfDataGrid**, you can do exactly that!
 
-In this guide, you’ll learn how to **import Excel data into SfDataGrid using Syncfusion XlsIO**, so your app can deliver dynamic, real-time data visualization without the hassle.
+In this blog, you’ll learn how to **Import Excel data into SfDataGrid using Syncfusion XlsIO**, so your app can deliver dynamic, real-time data visualization without the hassle.
 
 ***
 
@@ -17,24 +17,6 @@ In this guide, you’ll learn how to **import Excel data into SfDataGrid using S
 *   **Rich UI features:** Sorting, filtering, and responsive columns.
 *   **Enterprise-ready:** High performance with virtualization and smooth scrolling.
 *   **Seamless integration:** Bind data directly to `ObservableCollection` or `DataTable` for instant updates.
-
-***
-
-## **Architecture Overview**
-
-The process involves:
-
-1.  **Excel File Reading:** Use Syncfusion.XlsIO to read `.xlsx` or `.xls`.
-2.  **Data Mapping:** Convert worksheet data into a `DataTable`.
-3.  **Binding to SfDataGrid:** Set the `DataTable` as `ItemsSource`.
-
-<!---->
-
-    [Excel File (.xlsx)]
-           ↓
-    [Syncfusion XlsIO Library] → [DataTable]
-           ↓
-    [SfDataGrid (UI Control)]
 
 ***
 
@@ -64,7 +46,7 @@ The process involves:
 
 ***
 
-![Import Excel Data in DataGrid](ImportExcelData.gif)
+![Import Excel Data in DataGrid](ImportExcel_Windows.gif)
 
 ## **Conclusion**
 
