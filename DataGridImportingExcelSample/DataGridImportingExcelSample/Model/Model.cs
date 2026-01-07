@@ -7,7 +7,7 @@ namespace DataGridImportingExcelSample
     /// <summary>
     /// Main view model for data binding.
     /// </summary>
-    public class MainViewModel : INotifyPropertyChanged
+    public class Model : INotifyPropertyChanged
     {
         private DataTable? _items;
         private ObservableCollection<Dictionary<string, object?>>? _dynamicItems;
