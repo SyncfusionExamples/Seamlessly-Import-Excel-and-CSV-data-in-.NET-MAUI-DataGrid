@@ -33,7 +33,6 @@ namespace DataGridImportingExcelSample
                 DataGrid.Columns.Clear();
                 DataGrid.ItemsSource = table.DefaultView;
                 ViewModel.Items = table;
-                ViewModel.DynamicItems = null;
                 await DisplayAlertAsync("Success", $"Imported {table.Rows.Count} rows and {table.Columns.Count} columns.", "OK");
             }
             catch (Exception ex)
